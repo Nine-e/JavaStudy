@@ -5,7 +5,7 @@ package FourthHomework;
  */
 import FourthLab.Main;
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Two {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class Two {
         System.out.println("The perimeter is " + triangle.getPerimeter());
         in.close();
     }
-}
+}*/
 /*
 GeometricObject类，用来建模所有的几何对象。GeometricObject类包括：
 
@@ -32,7 +32,7 @@ GeometricObject类，用来建模所有的几何对象。GeometricObject类包�
         访问器方法getColor、isFilled，分别用于访问颜色、是否填充颜色。
         更改器方法setColor、setFilled，分别用于更改颜色、是否填充颜色。
         重写成员方法toString，返回几何对象的字符串描述。*/
-class GeometricObject{
+/*class GeometricObject{
     private String color = "white";
     private boolean filled = false;
     public GeometricObject(){}
@@ -60,7 +60,7 @@ class GeometricObject{
         return ("Color:"+ color + "and filled:" + filled);
 
     }
-}
+}*/
 
 
     /*定义一个名为Triangle的类来扩展GeometricObject类。该类包括：
@@ -71,7 +71,7 @@ class GeometricObject{
             成员方法getArea，返回三角形的面积。
             成员方法getPerimeter，返回三角形的周长。
             重写toString方法，返回三角形的字符串描述。*/
-    class Triangle extends GeometricObject {
+   /* class Triangle extends GeometricObject {
         private double side1 ;
         private double side2 ;
         private double side3 ;
@@ -98,11 +98,11 @@ class GeometricObject{
                     "side1 = "+ side1 + " side2 = " + side2 + " side3 = " + side3 + "\n" +
                     "Color: " + getColor() + " and filled: " + isFilled());
         }
-        /*Triangle:
+        *//*Triangle:
         side1 = 3.0 side2 = 4.0 side3 = 5.0
-        Color: red and filled: false*/
+        Color: red and filled: false*//*
 
-    }
+    }*/
      /*public String toString(){
         String x = String.format("%.1f",a);
         String y = String.format("%.1f",b);
